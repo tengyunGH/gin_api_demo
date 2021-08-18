@@ -22,6 +22,8 @@ func main() {
 	fmt.Println(bString)
 	fmt.Println(ok)
 
+	fmt.Println(bString) // 增加修改main方法
+
 	stringSlice := make([]string, 2)
 	aString := stringSlice[0]
 	fmt.Println(aString)
